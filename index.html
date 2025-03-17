@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="lo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- recet css는 일반 css보다 밑으로 내려갈 수 없다 -->
+    <link rel="stylesheet" href="assets/css/site.css">
+    <!-- css는 마지막번째를 기준으로 끌어와서 여러개의 css를 적용할 수 있지만 css2와 css3에 같은 class에 다른 값을 적용했다면, css3의 값이 html에 적용된다 -->
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo_item">
+                <h1 class="logo">
+                    LOGO Design
+                </h1>
+            </div>
+            <div class="gnb">
+                <ul>
+                    <li>
+                        <a href="#">
+                            Wallpapers
+                        </a>
+                        <!-- css에서는 텍스트테그는 텍스트요소를 넣을때만 건들고 마진같은 경우엔 박스인 li에 넣어야한다. ulX -->
+                    </li>
+                    <li>
+                        <a href="#">
+                            ature
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            3D Remders
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Textures
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Archirecture & Interiors
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Travel
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Street Photography
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_icon">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="assets/imgaes/icon/search-icon.svg" alt="search" class="icons">
+                        </a>
+                        <!-- 버튼으로 만들면 그냥 서치하는 서치박스가 뜨지만 a태그로 만들면 서치창으로 넘어갈때 사용한다 -->
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/imgaes/icon/bag-icon.svg" alt="bag" class="icons">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENT_01 SECTION -->
+    <section class="content_01">
+        <div class="slider">
+            <h2>
+                How can we get in touch
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Magna consequat sed quis pharetra amet et.
+            </p>
+            <button>
+                3D Graphice
+            </button>
+        </div>
+    </section>
+    <!-- CONTENT_01 SECTION END -->
+
+    <!-- CONTENT_02 SECTION -->
+    <section class="sec02">
+        <div class="sec02__title">
+            <h2>
+                Pulvinar elmentum interger
+                <br>
+                enim neque volutpat
+            </h2>
+            <p>
+                Pulvinar elmentum interger enim neque volutpat
+            </p>
+        </div>
+        <div class="swiper">
+            <div class="content02"></div>
+            <div class="content02"></div>
+            <div class="content02"></div>
+            <div class="content02"></div>
+            <div class="content02"></div>
+        </div>
+    </section>
+    <!-- CONTENT_02 SECTION END -->
+
+    <!-- CONTENT_03 SECTION -->
+    <section class="sec03 pd-100">
+        <div class="sec03__title">
+            <h2>
+                Spring winter
+            </h2>
+            <p>
+                Election Season Recommended Creators
+            </p>
+        </div>
+        <div class="sec03__content03">
+            <div class="content03 mr-12">
+                <div class="content03_img">
+                </div>
+                <h2>
+                    Beaker Background
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. Proin vitae imperdiet
+                    <br>
+                    dolor porta.
+                </p>
+            </div>
+            <div class="content03 mr-12">
+                <div class="content03_img"></div>
+                <h2>
+                    Beaker Background
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. Proin vitae imperdiet
+                    <br>
+                    dolor porta.
+                </p>
+            </div>
+            <div class="content03">
+                <div class="content03_img"></div>
+                <h2>
+                    Beaker Background
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. Proin vitae imperdiet
+                    <br>
+                    dolor porta.
+                </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+
+    <!-- SECTION_04 -->
+    <section class="sec04">
+        <div class="sec04__title">
+            <h2>Hello we’re Flutter</h2>
+            <p>Election Season Recommended Creators</p>
+        </div>
+        <div class="sec04__content04 mb-80">
+            <img src="assets/imgaes/content04_img.png" alt="" srcset="">
+        </div>
+
+        <!-- FLEX SECTION -->
+        <div class="w-1316 d-flex mb-80">
+            <div class="content w-650">
+                <img src="assets/imgaes/content05-1.png" alt="content05-1" srcset="">
+            </div>
+            <div class="content w-550 ml-20">
+                <div class="content05-title mb-62">
+                    <h2 class="font-32 font-600 mb-25 lh-140 ls-0025">
+                        3D insometric medical icons
+                    </h2>
+                    <p class="font-16 font-600 lh-140 ls-0025 c767676">
+                        Lorem ipsum dolor sit amet consectetur. Urna nunc orci diam ultricies. Pulvinar eget aliquet morbi tempor at viverra. Malesuada nisl amet ridiculus convallis.
+                    </p>
+                </div>
+                <div class="content05-img">
+                    <div class="d-flex-s w-550">
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25">
+                                <img src="assets/imgaes/content05-2.png" alt="content05-2" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25 ">
+                                <img src="assets/imgaes/content05-3.png" alt="content05-3" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25">
+                                <img src="assets/imgaes/content05-4.png" alt="content05-4" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT_05 END -->
+
+        <!-- CONTENT_06 -->
+        <div class="w-1316 d-flex mb-80">
+            <div class="content w-650">
+                <img src="assets/imgaes/content06-1.png" alt="content06-1" srcset="">
+            </div>
+            <div class="content w-550 ml-20">
+                <div class="content06-title mb-62">
+                    <h2 class="font-32 font-600 mb-25 lh-140 ls-0025">
+                        Paper and 3D redering
+                    </h2>
+                    <p class="font-16 font-600 lh-140 ls-0025 c767676">
+                        Lorem ipsum dolor sit amet consectetur. Urna nunc orci diam ultricies. Pulvinar eget aliquet morbi tempor at viverra. Malesuada nisl amet ridiculus convallis.
+                    </p>
+                </div>
+                <div class="content06-img">
+                    <div class="d-flex-s w-550">
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25">
+                                <img src="assets/imgaes/content06-2.png" alt="content06-2" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25 ">
+                                <img src="assets/imgaes/content06-3.png" alt="content06-3" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25">
+                                <img src="assets/imgaes/content06-4.png" alt="content06-4" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT_06 END -->
+
+        <!-- CONTENT_07 -->
+        <div class="w-1316 d-flex">
+            <div class="content w-650">
+                <img src="assets/imgaes/content07-1.png" alt="content07-1" srcset="">
+            </div>
+            <div class="content w-550 ml-20">
+                <div class="content07-title mb-62">
+                    <h2 class="font-32 font-600 mb-25 lh-140 ls-0025">
+                        Paper and 3D redering
+                    </h2>
+                    <p class="font-16 font-600 lh-140 ls-0025 c767676">
+                        Lorem ipsum dolor sit amet consectetur. Urna nunc orci diam ultricies. Pulvinar eget aliquet morbi tempor at viverra. Malesuada nisl amet ridiculus convallis.
+                    </p>
+                </div>
+                <div class="content06-img">
+                    <div class="d-flex-s w-550">
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25">
+                                <img src="assets/imgaes/content07-2.png" alt="content07-2" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25 ">
+                                <img src="assets/imgaes/content07-3.png" alt="content07-3" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                        <div class="content-img__swiper">
+                            <div class="swiper__img w-h mb-25">
+                                <img src="assets/imgaes/content07-4.png" alt="content07-4" srcset="">
+                            </div>
+                            <div class="swiper__text font-16 font-600 lh-140 ls-0025 align">
+                                <p>AI-Powered cloud</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>]
+    <!-- SECTION_04 END -->
+
+    <!-- CONTENT_05 -->
+     <section class="sec08 pd-100">
+        <div class="sec08__title">
+            <div class="content08-title w-1316 mb-80">
+                    <h2 class="font-32 font-600 mb-30 lh-140 ls-0025">
+                        Hello we’re Flutter
+                    </h2>
+                    <p class="font-16 font-600 lh-140 ls-0025 c767676 w-395">
+                        Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                    </p>
+            </div>
+        </div>
+        <div class="over-f-h">
+            <div class="d-float">
+                <div class="box bg1"></div>
+                <div class="box bg2"></div>
+                <div class="box bg3"></div>
+                <div class="box bg4"></div>
+                <div class="box bg5"></div>
+                <div class="box bg6"></div>
+                <div class="box bg7"></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        </div>
+     </section>
+     <!-- SECTION_05 END -->
+
+     <!-- SECTION_06 -->
+    <section class="sec06 pd-100">
+        <div class="w-1316">
+            <div class="sec06__title mb-80">
+                <h2 class="font-32 font-600 lh-140 ls-0025 mb-30">
+                    Archieving Great Things
+                </h2>
+                <p class="font-16 font-600 lh-140 ls-0025 c767676 w-654">
+                    Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                </p>
+            </div>
+            <div class="aside-content">
+                <div class="d-flex-s">
+                    <div class="left-title">
+                        Lorem ipsum dolor sit amet consectetur
+                    </div>
+                    <div class="right-content">
+                        Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                    </div>
+                </div>
+            </div>
+
+            <div class="aside-content">
+                <div class="d-flex-s">
+                    <div class="left-title">
+                        Lorem ipsum dolor sit amet consectetur
+                    </div>
+                    <div class="right-content">
+                        Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                    </div>
+                </div>
+            </div>
+
+            <div class="aside-content">
+                <div class="d-flex-s">
+                    <div class="left-title">
+                        Lorem ipsum dolor sit amet consectetur
+                    </div>
+                    <div class="right-content">
+                        Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                    </div>
+                </div>
+            </div>
+
+            <div class="aside-content">
+                <div class="d-flex-s">
+                    <div class="left-title">
+                        Lorem ipsum dolor sit amet consectetur
+                    </div>
+                    <div class="right-content">
+                        Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION_06 END -->
+
+
+    <!-- FLAT 6 -->
+     <section class="pd-100">
+        <div class="w-1316">
+            <div class="flat6-title mb-80">
+                <h2 class="font-32 font-600 lh-140 ls-0025 mb-30">
+                    Archieving Great Things
+                </h2>
+                <p class="font-16 font-600 lh-140 ls-0025">
+                    Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                </p>
+            </div>
+
+            <div class="d-flex-s">
+                <div class="flat-6">
+                    <div class="flat-6__content bg-flat-1 mb-10">
+                        <h3>
+                            Archieving Great Things
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                        </p>
+                    </div>
+
+                    <div class="flat-6__content bg-flat-1-2">
+                        <h3>
+                            Archieving Great Things
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flat-7">
+                    <div class="flat-7__content bg-flat-2">
+                        <h3>
+                            Archieving Great Things
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flat-8">
+                    <div class="flat-8__content bg-flat-3 mb-10">
+                        <h3>
+                            Archieving Great Things
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                        </p>
+                    </div>
+
+                    <div class="flat-8__content bg-flat-3-2 mb-10">
+                        <h3>
+                            Archieving Great Things
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                        </p>
+                    </div>
+                    <div class="flat-8__content bg-flat-3-3">
+                        <h3>
+                            Archieving Great Things
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Sed nisi eget massa sit non egestas magna pharetra. Ipsum at praesent praesent commodo sit sed duis sed. Adipiscing diam ac eu amet.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

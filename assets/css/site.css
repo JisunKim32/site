@@ -1,0 +1,660 @@
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 900;
+    src: url(pre/Pretendard-Black.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 800;
+    src: url(pre/Pretendard-ExtraBold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 700;
+    src: url(pre/Pretendard-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 600;
+    src: url(pre/Pretendard-SemiBold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 500;
+    src: url(pre/Pretendard-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 400;
+    src: url(pre/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 300;
+    src: url(pre/Pretendard-Light.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 200;
+    src: url(pre/Pretendard-ExtraLight.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 100;
+    src: url(pre/Pretendard-Thin.woff) format('woff');
+}
+
+body{
+    font-family: "Pretendard";
+}
+
+
+/* HEADER */
+
+.nav{
+    display: flex;
+    width: 1776px;
+    margin: 0 auto;
+}
+
+.gnb>ul{
+    display: flex;
+}
+/* >는 바로 아래있는 자식을 의미 */
+
+.nav_icon ul{
+    display: flex;
+}
+/* >가 아닌 스페이스는 부모 바로 밑에있는 자식이 아닌 그 밑에있는 자식에게 적용할 때 사용 */
+
+.icons{
+    width: 25px;
+    height: 25px;
+}
+
+.nav_icon li:first-child{
+    margin-right: 11px;
+}
+
+.logo{
+    font-size: 24px;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.gnb a{
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.logo_item{
+    margin-right: 164px;
+}
+
+.gnb li{
+    margin-right: 48px;
+}
+
+.gnb li:last-child{
+    margin-right: 0;
+}
+
+.nav_icon{
+    margin-left: 164px;
+}
+
+header{
+    padding: 23px 0;
+}
+
+
+/* SECTION_01 */
+
+.content_01{
+    width: 100%;
+    height: 670px;
+    background: url(../imgaes/main_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+.slider h2{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.slider p{
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 96px;
+}
+
+.slider button{
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    padding: 14px 16px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 670px;
+    justify-content: center;
+    margin-left: 304px;
+    /* justify-content는 부모에 height를 적용했다고해서 먹히는 것이 아닌 무조건 justify-content를 먹일 그 class에 height값이 있어야 적용된다 */
+}
+
+/* SECTION_01 END */
+
+
+/* SECTION_02 */
+
+.sec02{
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.sec02__title>h2{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.sec02__title p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #767676;
+    margin-bottom: 80px;
+}
+
+.swiper{
+    display: flex;
+    width: 1920x;
+}
+.content02{
+    width: 352px;
+    height: 500px;
+    background-color: #BCBCBC;
+    margin-right: 30px;
+}
+
+.content02:last-child{
+    margin-right: 0;
+}
+
+.sec02__title{
+    text-align: center;
+}
+/* SECTION_02 END */
+
+
+/* SECTION_03 */
+.sec03{
+    padding: 100px 0;
+}
+.sec03__title{
+    text-align: center;
+}
+
+.sec03__title>h2{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.sec03__title>p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #767676;
+    margin-bottom: 80px;
+}
+
+.sec03__content03{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.content03{
+    float: left;
+    width: 432px;
+}
+
+.content03_img{
+    width: 432px;
+    height: 280px;
+    background-color: #BCBCBC;
+}
+
+.content03>h2{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.content03>p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #767676;
+}
+
+.mr-12{
+    margin-right: 12px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.gnb li:hover{
+    background-color: skyblue;
+}
+/* SECTION_03 END */
+
+
+/* SECTION_04 */
+.sec04{
+    padding: 100px 0;
+}
+
+.sec04__title{
+    text-align: center;
+}
+
+.sec04__title>h2{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.sec04__title>p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #767676;
+    margin-bottom: 80px;
+}
+
+.sec04__content04{
+    width: 1320px;
+    height: 450px;
+    background-color: #BCBCBC;
+    margin: 0 auto;
+}
+/* SECTION_04 END */
+
+
+/* COMMON */
+
+    /* display */
+    /* flex를 먹은 자식들은 무조건 가로값이 정해져있어야 내가 디자인 한 것 그대로 나온다 */
+.d-flex{
+    display: flex;
+}
+
+.d-flex-s{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    /* font */
+.font-12{
+    font-size: 12px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-24{
+    font-size: 24px;
+}
+
+.font-32{
+    font-size: 32px;
+}
+
+.font-36{
+    font-size: 36px;
+}
+
+.font-500{
+    font-weight: 500;
+}
+
+.font-600{
+    font-weight: 600;
+}
+
+.lh-140{
+    line-height: 140%;
+}
+
+.ls-0025{
+    letter-spacing: 0.025em;
+}
+
+lh-140 ls-0025
+
+.c767676{
+    color: #767676;
+}
+
+.align{
+    text-align: center;
+}
+
+
+    /* img */
+img{
+    width: 100%;
+}
+
+
+    /* width */
+.w-1316{
+    width: 1316px;
+    margin: 0 auto;
+}
+
+.w-650{
+    width: 650px;
+}
+
+.w-550{
+    width: 550px;
+}
+
+.w-h{
+    height: 200px;
+}
+.w-292{
+    width: 292px;
+}
+
+.w-540{
+    width: 540px;
+}
+
+.w-654{
+    width: 654px;
+}
+
+    /* margin */
+.ml-20{
+    margin-left: 20px;
+}
+
+.mb-25{
+    margin-bottom: 25px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-62{
+    margin-bottom: 62px;
+}
+
+.mb-80{
+    margin-bottom: 80px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mb-60{
+    margin-bottom: 60px;
+}
+
+/* padding */
+.pd-100{
+    padding: 100px 0;
+}
+
+.sec08{
+    width: 1903px;
+    overflow: hidden;
+}
+
+.over-f-h{
+    background-color: aqua;
+    width: 3000px;
+    margin-left: -100px;
+}
+
+.d-float .box{
+    float: left;
+}
+
+.box{
+    width: 352px;
+    height: 250px;
+    background-color: #007aff;
+    margin: 0 10px;
+}
+
+.d-float>div{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.bg1{
+    background: url('../imgaes/content08_img-1.png');
+}
+
+.bg2{
+    background: url('../imgaes/content08_img-2.png');
+}
+
+.bg3{
+    background: url('../imgaes/content08_img-3.png');
+}
+
+.bg4{
+    background: url('../imgaes/content08_img-4.png');
+}
+
+.bg5{
+    background: url('../imgaes/content08_img-5.png');
+}
+
+.bg6{
+    background: url('../imgaes/content08_img-6.png');
+}
+
+.bg7{
+    background: url('../imgaes/content08_img-7.png');
+}
+
+.w-395{
+    width: 395px;
+}
+
+.float-l{
+    float: left;
+}
+
+.float-r{
+    float: right;
+}
+
+.aside-content{
+    padding: 20px 0 60px 0;
+    /* border-top: 1px solid #ccc; */
+
+    /* box-shadow: 0px -1px 0px #ccc; */
+    /* borther나 box-shadow 둘 다 해당 값으로 사용하면 라인처럼 표현되지만, borther는 선 자체가 1픽셀을 잡아먹지만 box-shadow는 inside로 떠서 픽셀을 잡아먹지않는다. 따라서 마진을 신경써야한다면 box-shadow를 사용하는것이다. */
+    
+    box-shadow: inset 0px 1px black;
+    /* inset으로 두께 조절 */
+
+    /* box-shadow: 3px 3px 10px red, -1em 0 0.4em olive, -10px -10px black; */
+    /* box-shadow= n n n값을 3개를 줄 수 있는데 마지막 숫자는 블러값을 의미한다 + 여러 컬러를 중첩 가능 */
+}
+
+.left-title{
+    width: 292px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.025em;
+}
+
+.right-content{
+    width: 540px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+
+
+
+.mg-20{
+    margin: 0 20px;
+}
+.flat6-title>p{
+    color: #767676;
+}
+
+.flat-6__content{
+    width: 648px;
+    height: 315px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flat-6__content p{
+    margin: 25px 0 20px 0;
+    padding-left: 20px;
+}
+.flat-6__content h3{
+    padding-left: 20px;
+}
+
+.bg-flat-1{
+    background: url('../imgaes/sec07_c1-row1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-flat-1-2{
+    background: url('../imgaes/sec07_c1-row2.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flat-7__content{
+    width: 324px;
+    height: 640px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flat-7__content p{
+    margin: 25px 0 20px 0;
+}
+
+.bg-flat-2{
+    background: url('../imgaes/sec07_c2.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.flat-8__content{
+    width: 324px;
+    height: 206.67px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flat-8__content p{
+    margin: 25px 0 20px 0;
+}
+
+.bg-flat-3{
+    background: url('../imgaes/sec07_c3-row1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-flat-3-2{
+    background: url('../imgaes/sec07_c3-row1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-flat-3-3{
+    background: url('../imgaes/sec07_c3-row1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+/* .bg-flat-1:hover{
+    transition: all 3s;
+    border-radius: 100px;
+    background-size: 130% 130%;
+} */
+
+
+
+
+
+
